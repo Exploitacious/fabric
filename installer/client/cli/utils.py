@@ -493,7 +493,7 @@ class Standalone:
 class Update:
     def __init__(self):
         """Initialize the object with default values."""
-        self.repo_zip_url = "https://github.com/danielmiessler/fabric/archive/refs/heads/main.zip"
+        self.repo_zip_url = "https://github.com/Exploitacious/fabric/zipball/master/"
         self.config_directory = os.path.expanduser("~/.config/fabric")
         self.pattern_directory = os.path.join(
             self.config_directory, "patterns")
